@@ -1,0 +1,12 @@
+{
+  "name": "vite-rollup-plugin-multi-entry",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-multi-entry": "4.0.0",
+    "vite": "^2.0.0-beta.24"
+  }
+}
