@@ -1,16 +1,10 @@
-# Vite + Vue using Rollup Plugin Auto Install
+# Vite in Lib mode using Rollup Plugin Multi Entry
 
-[@rollup/plugin-auto-install](https://github.com/rollup/plugins/tree/master/packages/auto-install)
+[@rollup/plugin-multi-entry](https://github.com/rollup/plugins/tree/master/packages/multi-entry)
 
 Repro to report an issue for [Vite](https://github.com/vitejs/vite)
 
-Dev works correctly, `nanoid` is auto installed
-```
-yarn
-yarn dev
-```
-
-Build fails
+Build fails creating the output file with the same name for both es and umd formats
 ```
 yarn
 yarn build
