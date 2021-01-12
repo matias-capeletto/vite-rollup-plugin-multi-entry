@@ -8,7 +8,7 @@ export default {
   build: {
     lib: { name: 'multi', formats: ['es', 'umd'] },
     rollupOptions: {
-      input: ['main.js', 'main-2.js']// [resolve(__dirname, 'main.js'), resolve(__dirname, 'main-2.js')]
+      input: [resolve(__dirname, 'main.js'), resolve(__dirname, 'main-2.js')]
     }
   },
   plugins: [
